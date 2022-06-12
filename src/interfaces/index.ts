@@ -23,3 +23,15 @@ export interface ICertificates {
   school: string;
   url: string;
 }
+
+export interface IArrayProjects {
+  projects: IProjects[];
+}
+
+export interface IProjects {
+  name: string;
+  img: string;
+  description: string;
+  techs: string;
+  url: string;
+}
