@@ -10,9 +10,6 @@ const HamburguerNavBar = () => {
         <li>
           <LinkContainer href="/projects">Meus projetos</LinkContainer>
         </li>
-        <li>
-          <LinkContainer href="/certificates">Certificados</LinkContainer>
-        </li>
       </ContainerUl>
     </Container>
   );

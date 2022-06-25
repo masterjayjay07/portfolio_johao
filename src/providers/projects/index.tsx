@@ -13,7 +13,8 @@ export const ProjectsProvider = ({ children }: AppProviderProps) => {
   const [projects] = useState<IProjects[]>([
     {
       name: "Bora Marcar?",
-      description: "",
+      description:
+        "Um app que controla os seus eventos distribuindo os itens a serem levados de forma justa para todos os participantes",
       img: "",
       techs:
         "React JS, styled-components, Material UI, react-router-dom, Context Api, Axios",
@@ -21,14 +22,16 @@ export const ProjectsProvider = ({ children }: AppProviderProps) => {
     },
     {
       name: "Kenzie Hub",
-      description: "",
+      description:
+        "Um app que cadastra tecnologias e seus níveis para o seu perfil pessoal",
       img: "",
       techs: "React JS, styled-components, react-router-dom, Axios",
       url: "https://react-entrega-s2-kenzie-hub-masterjayjay07.vercel.app/",
     },
     {
       name: "Kenzie Shop",
-      description: "",
+      description:
+        "Um E-commerce personalizado para funcionar com qualquer categoria de produtos. Totalmente completo com carrinho e contador de produtos",
       img: "",
       techs: "React JS, styled-components, Context Api",
       url: "https://react-entrega-s3-kenzishop-com-context-api-masterjayjay07.vercel.app/",
@@ -42,7 +45,8 @@ export const ProjectsProvider = ({ children }: AppProviderProps) => {
     },
     {
       name: "nuKenzie",
-      description: "",
+      description:
+        "Um app que faz o cálculo das suas entradas e saídas monetárias, com opções de filtro para melhor gerenciamento",
       img: "",
       techs: "React JS",
       url: "https://react-entrega-s1-nu-kenzie-masterjayjay07.vercel.app/",
