@@ -7,7 +7,6 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   background-color: #0c0d15;
-  margin-bottom: 50px;
   span {
     font-size: 1.5rem;
   }

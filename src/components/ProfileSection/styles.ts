@@ -41,6 +41,7 @@ export const ContainerBio = styled.div`
   align-items: center;
   justify-content: center;
   gap: 10px;
+  padding-right: 10px;
   @media (min-width: 640px) {
     align-items: flex-start;
   }
@@ -53,9 +54,9 @@ export const ContainerUl = styled.ul`
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
-  gap: 20px;
+  gap: 15px;
   li {
-    padding: 8px 0;
+    padding: 5px 0;
     display: flex;
     align-items: center;
     justify-content: flex-start;

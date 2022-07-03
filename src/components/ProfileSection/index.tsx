@@ -10,7 +10,7 @@ const ProfileSection = () => {
       <ContainerImg data-aos="fade-right">
         <img alt="johão" src={img} />
       </ContainerImg>
-      <ContainerBio data-aos="fade-left">
+      <ContainerBio data-aos="fade-down">
         <h2>Desenvolvedor Full Stack</h2>
         <p>
           Sou um desenvolvedor Full Stack e atualmente estou estudando

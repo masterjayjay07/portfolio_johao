@@ -47,7 +47,8 @@ const Footer = () => {
       <ContainerSiteInfo>
         <p>
           Este site foi feito com React JS e Typescript, em conjunto com as
-          bibliotecas styled-components, react-router-dom e react-icons
+          bibliotecas styled-components, react-router-dom, react-icons, AOS e
+          typewriter-effect.
         </p>
       </ContainerSiteInfo>
     </Container>
