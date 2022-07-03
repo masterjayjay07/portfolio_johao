@@ -22,11 +22,29 @@ export const Container = styled.section`
       padding: 5px;
       a {
         color: var(--color-light-black);
+        :hover {
+          text-decoration: underline;
+        }
       }
       img {
-        width: 90%;
+        width: 100%;
         height: 200px;
+        transition: 0.3s;
+        :hover {
+          filter: brightness(0.5);
+          transition: 0.5s;
+        }
       }
     }
+  }
+`;
+
+export const InfosContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 200px;
+  div {
+    min-height: 65px;
   }
 `;

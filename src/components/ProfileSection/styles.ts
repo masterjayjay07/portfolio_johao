@@ -23,6 +23,12 @@ export const ContainerImg = styled.div`
     max-width: 300px;
     height: 300px;
     border-radius: 160px;
+    transition: 0.2s;
+    :hover {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      transition: 0.5s;
+    }
   }
 `;
 
@@ -60,14 +66,14 @@ export const ContainerUl = styled.ul`
         background-color: #fff;
       }
     }
-    :hover {
-      transform: scale(1.05);
-      transition: 0.5s;
-    }
     img {
       width: 30px;
       height: 30px;
       border-radius: 3px;
+      :hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+      }
     }
   }
 `;

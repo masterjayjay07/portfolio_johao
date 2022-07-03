@@ -1,5 +1,5 @@
 import { useProjectsList } from "../../providers/projects";
-import { Container } from "./styles";
+import { Container, InfosContainer } from "./styles";
 
 const ProjectsSection = () => {
   const { projects } = useProjectsList();
@@ -14,11 +14,24 @@ const ProjectsSection = () => {
                 {element.name}
               </a>
             </h3>
-            <img alt={element.img} />
-            <h5>Descrição do app:</h5>
-            <p>{element.description}</p>
-            <h5>Tecnologias usadas:</h5>
-            <p>{element.techs}</p>
+            <a href={element.url} target="_blank" rel="noreferrer">
+              <img alt={element.name} src={element.img} />
+            </a>
+            <InfosContainer>
+              <h5>Descrição do app:</h5>
+              <div>
+                <p>{element.description}</p>
+              </div>
+              <h5>Tecnologias usadas:</h5>
+              <div>
+                <p>{element.techs}</p>
+              </div>
+              <h6>
+                <a href={element.github} target="_blank" rel="noreferrer">
+                  Github do projeto
+                </a>
+              </h6>
+            </InfosContainer>
           </li>
         ))}
       </ul>

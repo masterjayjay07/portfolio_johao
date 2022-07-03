@@ -34,4 +34,5 @@ export interface IProjects {
   description: string;
   techs: string;
   url: string;
+  github: string;
 }

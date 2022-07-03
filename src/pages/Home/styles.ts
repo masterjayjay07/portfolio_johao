@@ -5,5 +5,8 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 70px;
+  @media (max-width: 430px) {
+    gap: 30px;
+  }
 `;

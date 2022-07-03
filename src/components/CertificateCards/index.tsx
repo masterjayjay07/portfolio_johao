@@ -1,8 +1,25 @@
 import { Container } from "./styles";
 import { useCertificatesList } from "../../providers/certificates";
+import { useState } from "react";
 
 const CertificateCards = () => {
   const { certificates } = useCertificatesList();
+
+  // const [actualCertificated, setActualCertificated] = useState(0);
+
+  // const changeCerticicatedUp = () => {
+  //   if (actualCertificated + 1 > certificates.length) {
+  //     return setActualCertificated(0);
+  //   }
+  //   return setActualCertificated(actualCertificated + 1);
+  // };
+
+  // const changeCerticicatedDown = () => {
+  //   if (actualCertificated - 1 < 0) {
+  //     return setActualCertificated(certificates.length - 1);
+  //   }
+  //   return setActualCertificated(actualCertificated - 1);
+  // };
 
   return (
     <Container>
