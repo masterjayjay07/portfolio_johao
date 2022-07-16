@@ -1,6 +1,7 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import ProjectsSection from "../../components/projectsSection";
+import WhatsappButton from "../../components/WhatsappButton";
 
 const Projects = () => {
   return (
@@ -8,6 +9,7 @@ const Projects = () => {
       <Header />
       <ProjectsSection />
       <Footer />
+      <WhatsappButton />
     </div>
   );
 };

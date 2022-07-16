@@ -15,7 +15,7 @@ export const Container = styled.section`
     height: 490px;
     li {
       min-width: 300px;
-      min-height: 400px;
+      min-height: 445px;
       border-radius: 5px;
       background-color: var(--color-lavender-grey);
       color: var(--color-light-black);
@@ -33,6 +33,22 @@ export const Container = styled.section`
         :hover {
           filter: brightness(0.5);
           transition: 0.5s;
+        }
+      }
+      h6 {
+        a {
+          color: var(--color-lavender-grey);
+          padding: 4px;
+          background-color: var(--color-light-black);
+          transition: 0.2s;
+          border-radius: 3px;
+          border: 2px solid transparent;
+          :hover {
+            background-color: var(--color-dark-grey);
+            color: var(--color-light-black);
+            transition: 0.3s;
+            border: 2px solid var(--color-light-black);
+          }
         }
       }
     }

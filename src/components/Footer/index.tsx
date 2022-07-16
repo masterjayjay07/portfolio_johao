@@ -15,7 +15,15 @@ const Footer = () => {
         <li>
           <SiGmail />
           <p>Email: </p>
-          <p>johaopedro99@gmail.com</p>
+          <p>
+            <a
+              href="https://www.johaopedro99@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              johaopedro99@gmail.com
+            </a>
+          </p>
         </li>
         <li>
           <BsLinkedin />
