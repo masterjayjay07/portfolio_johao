@@ -24,7 +24,12 @@ export const ContainerUl = styled.ul`
 export const LinkContainer = styled.a`
   width: 1.5rem;
   color: var(--color-linen);
+  transition: 0.5s;
+  padding: 2px;
+  border-bottom: 2px solid transparent;
+  border-radius: 3px;
   :hover {
-    text-decoration: underline;
+    transition: 0.5s;
+    border-bottom: 2px solid var(--color-linen);
   }
 `;

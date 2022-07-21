@@ -1,9 +1,13 @@
 import { createContext, useContext, useState } from "react";
 import { AppProviderProps, ITechs, IArrayTechs } from "../../interfaces/index";
-
+import svg from "../../../public/styledcomponents.svg";
 export const TechsContext = createContext<IArrayTechs>({} as IArrayTechs);
 
 export const TechsProvider = ({ children }: AppProviderProps) => {
+  const [dark, setDark] = useState(true);
+  const changeBackground = () => {
+    setDark(!dark);
+  };
   const [techs] = useState<ITechs[]>([
     {
       name: "HTML",
@@ -26,12 +30,28 @@ export const TechsProvider = ({ children }: AppProviderProps) => {
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
     },
     {
+      name: "Redux",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
+    },
+    {
       name: "Node JS",
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-plain.svg",
     },
     {
       name: "PostgreSQL",
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-plain.svg",
+    },
+    {
+      name: "Python",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+    },
+    {
+      name: "Django",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg",
+    },
+    {
+      name: "sqlite",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg",
     },
     {
       name: "Docker",
@@ -51,6 +71,8 @@ export const TechsProvider = ({ children }: AppProviderProps) => {
     <TechsContext.Provider
       value={{
         techs,
+        dark,
+        changeBackground,
       }}
     >
       {children}

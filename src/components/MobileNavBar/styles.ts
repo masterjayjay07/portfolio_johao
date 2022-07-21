@@ -8,7 +8,7 @@ export const Container = styled.nav`
     height: 100px;
     cursor: pointer;
   }
-  @media (min-width: 460px) {
+  @media (min-width: 560px) {
     display: none;
   }
 `;

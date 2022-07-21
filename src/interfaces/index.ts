@@ -6,6 +6,8 @@ export interface AppProviderProps {
 
 export interface IArrayTechs {
   techs: ITechs[];
+  dark: Boolean;
+  changeBackground: any;
 }
 
 export interface ITechs {

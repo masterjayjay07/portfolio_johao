@@ -4,7 +4,7 @@ export const Container = styled.footer`
   background-color: var(--color-lavender-grey);
   color: var(--color-light-black);
   width: 100%;
-  padding: 15px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   gap: 6px;

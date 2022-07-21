@@ -12,7 +12,7 @@ export const Container = styled.div`
 `;
 
 export const ContainerCards = styled.div`
-  max-width: 340px;
+  max-width: 320px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -32,7 +32,7 @@ export const ContainerCards = styled.div`
     transition: 0.2s;
     gap: 5px;
     img {
-      max-width: 320px;
+      max-width: 300px;
       height: 300px;
       border-radius: 5px;
     }

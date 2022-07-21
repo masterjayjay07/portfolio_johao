@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { bodyThemes } from "./themes";
 
 export default createGlobalStyle`
 *{
@@ -29,7 +30,7 @@ export default createGlobalStyle`
 body {
     background-color: var(--color-light-black);
     font-family: 'Nunito', sans-serif; 
-    color: var(--color-linen) 
+    color: var(--color-linen);
 }
 
 a {
