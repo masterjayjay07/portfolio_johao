@@ -12,34 +12,39 @@ export const Container = styled.div`
 `;
 
 export const ContainerCards = styled.div`
-  max-width: 320px;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
-  overflow: auto;
+  width: 100%;
   div {
-    border: 2px solid var(--color-linen);
-    background-color: var(--color-light-black);
-    border-radius: 3px;
-    padding: 5px;
-    flex-grow: 1;
-    flex-shrink: 2;
-    flex-basis: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: 0.2s;
-    gap: 5px;
-    img {
-      max-width: 300px;
-      height: 300px;
-      border-radius: 5px;
-    }
-    p {
-      a {
-        color: var(--color-linen);
-      }
+    max-width: 320px;
+  }
+`;
+
+export const ContainerCard = styled.div`
+  border: 2px solid var(--color-linen);
+  background-color: var(--color-light-black);
+  max-width: 320px;
+  border-radius: 3px;
+  padding: 5px;
+  flex-grow: 1;
+  flex-shrink: 2;
+  flex-basis: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+  gap: 5px;
+  img {
+    max-width: 300px;
+    height: 300px;
+    border-radius: 5px;
+  }
+  p {
+    a {
+      color: var(--color-linen);
     }
   }
 `;

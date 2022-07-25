@@ -38,10 +38,6 @@ export const TechsProvider = ({ children }: AppProviderProps) => {
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-plain.svg",
     },
     {
-      name: "PostgreSQL",
-      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-plain.svg",
-    },
-    {
       name: "Python",
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
     },
@@ -50,7 +46,11 @@ export const TechsProvider = ({ children }: AppProviderProps) => {
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg",
     },
     {
-      name: "sqlite",
+      name: "PostgreSQL",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-plain.svg",
+    },
+    {
+      name: "Sqlite",
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg",
     },
     {

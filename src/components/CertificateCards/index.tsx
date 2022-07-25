@@ -1,5 +1,7 @@
-import { Container, ContainerCards } from "./styles";
+import { Container, ContainerCards, ContainerCard } from "./styles";
 import { useCertificatesList } from "../../providers/certificates";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const CertificateCards = () => {
   const { certificates } = useCertificatesList();
@@ -8,17 +10,24 @@ const CertificateCards = () => {
     <Container>
       <h2>Certificados</h2>
       <ContainerCards>
-        {certificates.map((element, index) => (
-          <div key={index}>
-            <h4>{element.name}</h4>
-            <img src={element.img} alt="#" />
-            <p>
-              <a href={element.url} target="_blank" rel="noreferrer">
-                {element.school}
-              </a>
-            </p>
-          </div>
-        ))}
+        <Carousel
+          showThumbs={false}
+          infiniteLoop
+          swipeScrollTolerance={10}
+          preventMovementUntilSwipeScrollTolerance
+        >
+          {certificates.map((element, index) => (
+            <ContainerCard key={index}>
+              <h4>{element.name}</h4>
+              <img src={element.img} alt="#" />
+              <p>
+                <a href={element.url} target="_blank" rel="noreferrer">
+                  {element.school}
+                </a>
+              </p>
+            </ContainerCard>
+          ))}
+        </Carousel>
       </ContainerCards>
     </Container>
   );
