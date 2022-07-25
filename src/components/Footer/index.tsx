@@ -58,6 +58,15 @@ const Footer = () => {
           bibliotecas styled-components, react-router-dom,
           react-responsive-carousel, react-icons, AOS e typewriter-effect.
         </p>
+        <p>
+          <a
+            href="https://github.com/masterjayjay07/portfolio_johao"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <strong>Github deste site</strong>
+          </a>
+        </p>
       </ContainerSiteInfo>
     </Container>
   );

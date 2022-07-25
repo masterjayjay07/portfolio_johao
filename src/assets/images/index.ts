@@ -6,6 +6,7 @@ import nukenzie from "./nukenzie.jpeg";
 import burguerkenzie from "./kenzieburguer.jpeg";
 import rickyandmorty from "./rickyandmorty.jpeg";
 import jogodeazar from "./jogodeazar.jpeg";
+import primeirafila from "./primeira_fila.jpeg";
 
 export const projectImgs = [
   boramarcar,
@@ -16,4 +17,5 @@ export const projectImgs = [
   burguerkenzie,
   rickyandmorty,
   jogodeazar,
+  primeirafila,
 ];

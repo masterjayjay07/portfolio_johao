@@ -33,14 +33,14 @@ export const ProjectsProvider = ({ children }: AppProviderProps) => {
         "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s2-kenzie-hub-masterjayjay07",
     },
     {
-      name: "Kenzie Shop",
+      name: "Primeira Fila",
       description:
-        "Um E-commerce personalizado para funcionar com qualquer categoria de produtos. Totalmente completo com carrinho e contador de produtos",
-      img: projectImgs[2],
-      techs: "React JS, styled-components, Context Api",
-      url: "https://react-entrega-s3-kenzishop-com-context-api-masterjayjay07.vercel.app/",
+        "Um app onde você pode facilmente ver que filmes estão passando e comprar ingressos para assistir um filme no cinema escolhido.",
+      img: projectImgs[8],
+      techs: "Python, django-rest-framework, Postgres, AWS",
+      url: "https://primeira-fila.herokuapp.com/docs/",
       github:
-        "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s3-kenzieshop-masterjayjay07",
+        "https://github.com/cayo-rodrigues/primeira-fila#httpprimeira-filaherokuappcom",
     },
     {
       name: "Do it.",
@@ -59,6 +59,16 @@ export const ProjectsProvider = ({ children }: AppProviderProps) => {
       url: "https://react-entrega-s1-nu-kenzie-masterjayjay07.vercel.app/",
       github:
         "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-nu-kenzie-masterjayjay07",
+    },
+    {
+      name: "Kenzie Shop",
+      description:
+        "Um E-commerce personalizado para funcionar com qualquer categoria de produtos. Totalmente completo com carrinho e contador de produtos",
+      img: projectImgs[2],
+      techs: "React JS, styled-components, Context Api",
+      url: "https://react-entrega-s3-kenzishop-com-context-api-masterjayjay07.vercel.app/",
+      github:
+        "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s3-kenzieshop-masterjayjay07",
     },
     {
       name: "Burguer Kenzie",
