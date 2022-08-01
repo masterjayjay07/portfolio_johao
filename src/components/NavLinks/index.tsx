@@ -10,7 +10,7 @@ const NavLinks = () => {
       </li>
       <li>
         <LinkContainer
-          href="https://drive.google.com/file/d/19MKK8z_jwgA8Sz2VM1aCdeA7LzM9oIsZ/view?usp=sharing"
+          href="https://drive.google.com/file/d/1yQz_rLsRmJwQqWpp0rewqyDMiJsGr_sy/view?usp=sharing"
           target="_blank"
         >
           Meu Currículo
