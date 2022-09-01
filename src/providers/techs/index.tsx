@@ -34,6 +34,14 @@ export const TechsProvider = ({ children }: AppProviderProps) => {
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
     },
     {
+      name: "Vue JS",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg",
+    },
+    {
+      name: "Material UI",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg",
+    },
+    {
       name: "Node JS",
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-plain.svg",
     },
