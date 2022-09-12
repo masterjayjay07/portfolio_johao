@@ -1,6 +1,5 @@
 import { createContext, useContext, useState } from "react";
 import { AppProviderProps, ITechs, IArrayTechs } from "../../interfaces/index";
-import svg from "../../../public/styledcomponents.svg";
 export const TechsContext = createContext<IArrayTechs>({} as IArrayTechs);
 
 export const TechsProvider = ({ children }: AppProviderProps) => {
@@ -22,7 +21,7 @@ export const TechsProvider = ({ children }: AppProviderProps) => {
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg",
     },
     {
-      name: "Typecript",
+      name: "Typescript",
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg",
     },
     {
