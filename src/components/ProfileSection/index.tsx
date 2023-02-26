@@ -13,14 +13,16 @@ const ProfileSection = () => {
       <ContainerBio data-aos="fade-down">
         <h2>Desenvolvedor Full Stack</h2>
         <p>
-          Sou um desenvolvedor Full Stack e atualmente estou estudando
-          desenvolvimento Back End em Python e Django na Kenzie Academy.
+          Sou um desenvolvedor Full Stack e atualmente trabalho na
+          <a href="https://tbdc.com.br"
+            target="_blank"
+            rel="noreferrer"
+          > TBDC Agro Software</a>,
+          uma empresa voltada a desenvolver soluções tecnológicas para o Agronegócio.
         </p>
         <p>
           Minha paixão por tecnologia veio do interesse de entender como as
           coisas funcionam e das infinitas possibilidades de criar alguma coisa.
-          Hoje tenho um bom conhecimento nas tecnologias usadas em Front-End,
-          consumo de APIs e uso de bibliotecas.
         </p>
         <h3>Tenho conhecimento em:</h3>
         <ContainerUl>

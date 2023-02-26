@@ -25,7 +25,7 @@ export const TechsProvider = ({ children }: AppProviderProps) => {
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg",
     },
     {
-      name: "React JS",
+      name: "React JS & React Native",
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
     },
     {
@@ -35,6 +35,10 @@ export const TechsProvider = ({ children }: AppProviderProps) => {
     {
       name: "Vue JS",
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg",
+    },
+    {
+      name: "PHP",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg",
     },
     {
       name: "Material UI",
@@ -59,6 +63,10 @@ export const TechsProvider = ({ children }: AppProviderProps) => {
     {
       name: "Sqlite",
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg",
+    },
+    {
+      name: "MySql",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
     },
     {
       name: "Docker",
