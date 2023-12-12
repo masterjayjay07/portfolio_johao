@@ -13,16 +13,10 @@ const ProfileSection = () => {
       <ContainerBio data-aos="fade-down">
         <h2>Desenvolvedor Full Stack</h2>
         <p>
-          Sou um desenvolvedor Full Stack e atualmente trabalho na
-          <a href="https://tbdc.com.br"
-            target="_blank"
-            rel="noreferrer"
-          > TBDC Agro Software</a>,
-          uma empresa voltada a desenvolver soluções tecnológicas para o Agronegócio.
+          Sou um Desenvolvedor Full Stack com 3 anos de experiência em diversos segmentos do desenvolvimento web, como sites em React e Vue, apps em React Native e APIs em Node js.
         </p>
         <p>
-          Minha paixão por tecnologia veio do interesse de entender como as
-          coisas funcionam e das infinitas possibilidades de criar alguma coisa.
+          Minha jornada no cenário tecnológico me proporcionou uma compreensão profunda dessas tecnologias, permitindo-me ter uma participação importante no desenvolvimento de equipes e contribuir significativamente para projetos bem-sucedidos. Especializo-me em criar soluções inovadoras e tenho um histórico comprovado de entrega de resultados de alta qualidade.
         </p>
         <h3>Tenho conhecimento em:</h3>
         <ContainerUl>

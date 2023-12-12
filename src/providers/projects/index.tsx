@@ -15,7 +15,7 @@ export const ProjectsProvider = ({ children }: AppProviderProps) => {
     {
       name: "Bora Marcar?",
       description:
-        "Um app que controla os seus eventos distribuindo os itens a serem levados de forma justa para todos os participantes",
+        "Um site que controla os seus eventos distribuindo os itens a serem levados de forma justa para todos os participantes",
       img: projectImgs[0],
       techs:
         "React JS, styled-components, Material UI, react-router-dom, Context Api, Axios",
@@ -25,7 +25,7 @@ export const ProjectsProvider = ({ children }: AppProviderProps) => {
     {
       name: "Kenzie Hub",
       description:
-        "Um app que cadastra tecnologias e seus níveis para o seu perfil pessoal",
+        "Um site que cadastra tecnologias e seus níveis para o seu perfil pessoal",
       img: projectImgs[1],
       techs: "React JS, styled-components, react-router-dom, Axios",
       url: "https://react-entrega-s2-kenzie-hub-masterjayjay07.vercel.app/",
@@ -35,7 +35,7 @@ export const ProjectsProvider = ({ children }: AppProviderProps) => {
     {
       name: "Primeira Fila",
       description:
-        "Um app onde você pode facilmente ver que filmes estão passando e comprar ingressos para assistir um filme no cinema escolhido.",
+        "Uma api onde você pode criar um controle completo para um cinema.",
       img: projectImgs[8],
       techs: "Python, django-rest-framework, Postgres, AWS",
       url: "https://primeira-fila.herokuapp.com/docs/",
@@ -44,7 +44,7 @@ export const ProjectsProvider = ({ children }: AppProviderProps) => {
     },
     {
       name: "Do it.",
-      description: "Um app para organizar suas tarefas diárias.",
+      description: "Um site para organizar suas tarefas diárias.",
       img: projectImgs[3],
       techs: "React JS, Axios, styled-components, Context Api",
       url: "https://do-it-kenzie.vercel.app/dashboard",
@@ -53,7 +53,7 @@ export const ProjectsProvider = ({ children }: AppProviderProps) => {
     {
       name: "nuKenzie",
       description:
-        "Um app que faz o cálculo das suas entradas e saídas monetárias, com opções de filtro para melhor gerenciamento",
+        "Um site que faz o cálculo das suas entradas e saídas monetárias, com opções de filtro para melhor gerenciamento",
       img: projectImgs[4],
       techs: "React JS",
       url: "https://react-entrega-s1-nu-kenzie-masterjayjay07.vercel.app/",
@@ -73,7 +73,7 @@ export const ProjectsProvider = ({ children }: AppProviderProps) => {
     {
       name: "Burguer Kenzie",
       description:
-        "Um e-commerce de fast food completo com filtros e carrinho.",
+        "Um E-commerce de fast food completo com filtros e carrinho.",
       img: projectImgs[5],
       techs: "React JS",
       url: "https://react-entrega-s1-hamburgueria-da-kenzie-masterjayjay07.vercel.app/",
